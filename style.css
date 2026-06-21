@@ -38,3 +38,54 @@ font-size: 2.5em;
 margin-bottom: 0.5em;
 }
 
+#home p{
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.portofolio-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.portofolio-item{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+.portofolio-item h2{
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.portofolio-item p{
+    color: #666;
+    margin-bottom: 0.5em;
+}
+
+.portofolio-item img{
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.portofolio-item:hover{
+    transform: scale(1.05);
+}
+
+#footer{
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
