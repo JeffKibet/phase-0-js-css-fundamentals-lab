@@ -9,3 +9,22 @@
     z-index: 1000;
 }
 
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li{
+    display: inline;
+    margin-right: 0 1em;
+}
+
+.navbar ul li a{
+    color: #fff;
+}
+
+main{
+    padding: 2em 1em;
+}
+
