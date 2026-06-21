@@ -1,3 +1,9 @@
+.main-content{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin-left: 20%;
+}
+
 .navbar{
     background-color: #333;
     font-size: 1.2em;
@@ -22,6 +28,12 @@
 
 .navbar ul li a{
     color: #fff;
+    text-decoration: none;
+    padding: 1em;
+}
+
+.navbar ul li a:hover{
+  color:gray;
 }
 
 main{
@@ -48,6 +60,8 @@ margin-bottom: 0.5em;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 1em;
+    width: 100%;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .portofolio-item{
