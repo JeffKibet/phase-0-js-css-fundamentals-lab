@@ -55,7 +55,7 @@ margin-bottom: 0.5em;
     margin-bottom: 0.5em;
 }
 
-.portofolio-container{
+.portfolio-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -78,22 +78,22 @@ margin-bottom: 0.5em;
 }
     }
 
-.portofolio-item h2{
+.portfolio-item h2{
     font-weight: bold;
     margin-bottom: 0.5em;
 }
 
-.portofolio-item p{
+.portfolio-item p{
     color: #666;
     margin-bottom: 0.5em;
 }
 
-.portofolio-item img{
+.portfolio-item img{
     width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.portofolio-item:hover{
+.portfolio-item:hover{
     transform: scale(1.05);
 }
 
